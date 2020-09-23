@@ -612,6 +612,13 @@ img {
   margin: 18px -10px 20px;
 }
 
+@media (max-width: 420px) {
+  .projects-list {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 360px) {
   .projects-list {
     margin: -7px -15px 15px;
@@ -632,7 +639,7 @@ img {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
   .project-item {
     width: 100%;
     margin-left: 0;
@@ -642,6 +649,7 @@ img {
 
 .project-item-thumbnail {
   display: block;
+  width: 100%;
 }
 
 .project-item-title {
